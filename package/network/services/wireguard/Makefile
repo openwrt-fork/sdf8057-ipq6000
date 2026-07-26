@@ -15,8 +15,10 @@ PKG_VERSION:=1.0.20220627
 PKG_RELEASE:=2
 
 PKG_SOURCE:=wireguard-linux-compat-$(PKG_VERSION).tar.xz
-PKG_SOURCE_URL:=https://git.zx2c4.com/wireguard-linux-compat/snapshot/
-PKG_HASH:=19b181e5c7d2260c23ecad4ad324425fd8e88200d97a885a2c7d4bd26cd61461
+PKG_SOURCE_URL:=https://git.centos.org/kmod-wireguard/wireguard-linux-compat-1.0.20220627.tar.xz/sha512/dc3d434517a348c8025274c9a139e0fe0563a8e235a8ef666263892c8d27865297ce185dbf0dfdf94178fa1516bea978d2cb817609cbfdb0f91f6491abd2e975/
+PKG_HASH:=362d412693c8fe82de00283435818d5c5def7f15e2433a07a9fe99d0518f63c0
+#PKG_SOURCE_URL:=https://git.zx2c4.com/wireguard-linux-compat/snapshot/
+#PKG_HASH:=19b181e5c7d2260c23ecad4ad324425fd8e88200d97a885a2c7d4bd26cd61461
 
 PKG_LICENSE:=GPL-2.0
 PKG_LICENSE_FILES:=COPYING
